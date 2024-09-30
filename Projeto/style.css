@@ -1,5 +1,20 @@
-.primeiro-h1 {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
+.container  {
+    background-color: #121212;
+    width: 700px;
+    color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    border: 5px solid #333;
+}
