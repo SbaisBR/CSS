@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -14,7 +19,34 @@ body {
     color: #FFFFFF;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 50px;
 
     border: 5px solid #333;
+}
+
+.rede-social h2{
+    text-align: center;
+}
+
+.rede-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.rede-social li {
+    margin-bottom: 0 12px;
+}
+
+.rede-social a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 12px;
+}
+
+.rede-social a:hover {
+    color: #FF0000;
 }
