@@ -11,6 +11,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 180vh;
 }
 
 .container  {
@@ -20,33 +21,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-
     border: 5px solid #333;
 }
 
-.rede-social h2{
-    text-align: center;
-}
-
-.rede-social ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.rede-social li {
-    margin-bottom: 0 12px;
-}
-
-.rede-social a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 24px;
-    margin: 0 12px;
-}
-
-.rede-social a:hover {
-    color: #FF0000;
+.area   {
+    background-color: #f4f4f4;
+    top: 150px;
+    left: 90px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    border: 5px solid green;
 }
