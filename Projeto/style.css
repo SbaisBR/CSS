@@ -17,21 +17,38 @@ body {
     height: 180vh;
 }
 
-.container  {
+.container {
     background-color: #121212;
-    width: 700px;
-    color: #FFFFFF;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 50px;
-    border: 5px solid #333;
+    height: 500px;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
 }
 
-header {
-    background-color: cyan;
-    width: 100%;
+.area {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item-1 {
+    background-color: red;
     
-    position: Sticky;
-    top: 0;
 }
 
+.item-2 {
+    background-color: blue;
+    
+}
+
+.item-3 {
+    background-color: green;
+    
+}
