@@ -36,23 +36,22 @@ body {
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
-    flex-basis: 400px;
-    flex-grow: 1;
+    font-size: 25px;
+    
 }
 
 .item-1 {
     background-color: red;
-    flex-shrink: 1;
-    
+    order: 2;
 }
 
 .item-2 {
     background-color: blue;
-    flex-shrink: 1;
+    order: 1;
     
 }
 
 .item-3 {
     background-color: green;
-    flex-shrink: 2;
+    order: 3;
 }
