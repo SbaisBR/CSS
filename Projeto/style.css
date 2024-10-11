@@ -24,6 +24,7 @@ body {
 
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .area {
@@ -42,16 +43,21 @@ body {
 
 .item-1 {
     background-color: red;
-    order: 2;
+
 }
 
 .item-2 {
     background-color: blue;
-    order: 1;
+
     
 }
 
 .item-3 {
     background-color: green;
-    order: 3;
+
+}
+
+.item-4 {
+    background-color: brown;
+
 }
